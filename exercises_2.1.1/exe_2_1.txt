@@ -1,0 +1,11 @@
+int long long long 之间的区别？
+
+他们表示整数的范围不一样。
+一般 int 16 位， long 32 位， long long 64 位。
+无论int long long long 各占多少位，都需要保证 int <= long <= long long
+
+unsigned 和 signed 只是有没有符号的区别，没符号的表示 0 和 正数
+无符号的表示的正数范围要大
+
+float double 首先精度不一样，然后表示的范围也不一样。
+但是计算的时候，消耗的性能却差不多，优先选择 double

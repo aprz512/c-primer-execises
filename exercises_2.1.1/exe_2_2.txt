@@ -1,0 +1,5 @@
+对于利率 选择 double
+对于本金 选择 int 或者 long long，一般没有小数吧 最好还要使用 unsigned 类型
+对于付款 选择 double
+
+其实都选择 double 就好了 可惜 double 的实现决定了 无法使用 unsigned double

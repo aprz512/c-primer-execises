@@ -1,0 +1,7 @@
+a "Who goes with F\145rgus?\012"
+
+这两字符表示什么意思我也不清楚，用程序跑一下吧。string 
+
+b long double
+c float
+d long double

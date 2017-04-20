@@ -1,0 +1,26 @@
+'a' char 类型
+L'a' wchar_t 
+"a" string
+L"a" string 每个 char 都是 wchar_t
+
+------------------------------------
+
+10L int
+10u unsigned int
+10L long
+10ul unsigned long
+012 int 8进制
+0xc int 16进制
+
+----------------------------------------
+
+3.14 double
+3.14f float
+3.14L long double
+
+----------------------------------------
+
+10 int
+10u unsigned int
+10. double
+10e-2 double
