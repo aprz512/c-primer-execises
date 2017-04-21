@@ -1,0 +1,7 @@
+假设 p　是指向　int 的指针：
+
+if (p) 
+如果　p 不是空指针，则为 true，反之　false
+
+if (*p)
+如果　p 指向的　int 值不为　０，则为　true，反之　false.

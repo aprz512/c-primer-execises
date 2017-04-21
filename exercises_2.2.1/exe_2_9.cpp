@@ -16,5 +16,16 @@ int main ()
 	// 没有错误吧，只是会丢失精度
 	int i2 = 3.14;
 	
+	int _ = 3;
+	
+	double Double = 3.14;
+	
+	int i, &r1 = i;
+	i = 5;
+	r1 = 10;
+	
+	
+	std::cout << i << "----" << r1 << std::endl;
+	
 	return 0;
 }

@@ -1,0 +1,5 @@
+（ａ）　ip 是　int 类型的指针　r 是　int 类型的引用，这个会报错吧，r 应该是　*&r 才对
+
+(b) i 是　int 类型, ip 是 int 类型的指针　初始化为　nullptr
+
+(c)ip int 指针　ip2 是　int
