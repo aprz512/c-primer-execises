@@ -1,0 +1,12 @@
+decltype 不会忽略顶层const
+auto 有时候会忽略
+
+decltype 赋值表达式,双括号都会返回引用类型
+auto 需要推断
+
+auto i = 10;
+decltype (10) a = 10;
+
+int j = 0;
+auto i = (j = 15);
+decltype (j = 15) p = i;
