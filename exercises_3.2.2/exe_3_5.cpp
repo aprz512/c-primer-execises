@@ -1,5 +1,5 @@
 #include <iostream>
-#incldue <string>
+#include <string>
 
 using std::string;
 using std::cin;
@@ -9,12 +9,13 @@ using std::cout;
 int main()
 {
 	string str;
+	string temp;
 	
-	while(cin >> str)
+	while(cin >> temp)
 	{
-		str += str;
+		//str += temp;
 		
-		str += (str + " ");
+		str += (temp + " ");
 	}
 	
 	cout << str << endl;

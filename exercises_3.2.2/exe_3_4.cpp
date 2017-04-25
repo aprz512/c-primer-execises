@@ -10,7 +10,9 @@ int main ()
 {
 	string str1, str2;
 	cin >> str1 >> str2;
-	if (strl == str2)
+
+/*
+	if (str1 == str2)
 	{
 		cout << "two string equals:" << str1 << endl;
 	} 
@@ -25,8 +27,10 @@ int main ()
 			cout << str1 << endl;
 		}
 	}
-	
-	decltype(str1.size()) size1 = strl.size();
+*/	
+
+	// decltype need c++11
+	decltype(str1.size()) size1 = str1.size();
 	decltype(str1.size()) size2 = str2.size();
 	if (size1 == size2)
 	{
@@ -44,5 +48,6 @@ int main ()
 		}
 	}
 	
+
 	return 0;
 }
