@@ -1,0 +1,15 @@
+string sa[10];
+int ia[10];
+
+int main()
+{
+	string sa2[10];
+	int ia2[10];
+	
+	return 0;
+}
+
+sa 都是空字符串
+ia 都是0
+
+sa2， ia2 都是未定义
