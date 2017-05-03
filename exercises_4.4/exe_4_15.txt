@@ -1,0 +1,12 @@
+double dval; 
+int ival;
+int *pi;
+
+dval = ival = pi = 0;
+
+不能将 int * 赋值给 int。
+
+dval = ival = 0;
+pi = 0;// 注意 指针只能赋值显示的0，不能搞个 int 的变量，值为0，然后赋值。
+
+这样写就ok了。

@@ -1,0 +1,15 @@
+vector<string>::iterator iter;
+
+(a) *iter++	// iter 指向的元素，然后指针后移一位
+
+(b) (*iter)++	// 不合法，string 没有 ++
+
+(c) *iter.empty()	// 不合法，(*iter).empty()
+
+(d) iter->empty()	// ok，iter指向的元素是否为空
+
+(e) ++*iter;		// 不合法，string 不支持前置 ++
+
+(f) iter++->empty();	// 该表达式返回 iter->empty()，再 ++iter
+
+

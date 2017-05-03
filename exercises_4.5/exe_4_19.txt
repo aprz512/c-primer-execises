@@ -1,0 +1,11 @@
+int *ptr;
+vector<int> vec;
+int ival;
+
+(a) ptr != 0 && *ptr++	// 错误的表达式 ptr++ 没有意义，改成 ptr != 0 && (*ptr)++
+
+(b) ival++ && ival	// 相当于ival && ival + 1
+
+(c) vec[ival++] <= vec[ival] 	// 无意义，不知道那边的表达式先求值，并且就算知道了，后置运算符也会导致未定义的结果。
+
+改成 vec[ival] < vec[ival + 1]
