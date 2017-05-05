@@ -1,0 +1,11 @@
+a. while (string::iterator iter != s.end()) {}
+
+iter 没有赋值。
+string::iterator iter = s.begin();
+while (iter != s.end()) {}
+
+
+b. while (bool status = find(word)) {}
+	if (!status) {}
+	
+if 应该放在 while 里面，否则无法访问 status，并且将if放入while之后，status值只能为true

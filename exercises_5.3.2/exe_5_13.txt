@@ -1,0 +1,7 @@
+a. case 没有break
+
+b. case 里面不能使用初始化，除非使用大括号
+
+c. case 的分割，要每个条件都有一个case。
+
+d. case 需要使用常量表达式

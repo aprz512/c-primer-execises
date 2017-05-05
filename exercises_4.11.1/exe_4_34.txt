@@ -1,0 +1,5 @@
+a. float 转 bool，非 0 为真
+
+b. int 转 float，相加后的结果转 double
+
+c. char 转 int，结果转double再相加。

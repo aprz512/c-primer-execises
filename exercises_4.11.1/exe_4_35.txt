@@ -1,0 +1,14 @@
+char cval;
+int ival;
+unsigned int ui;
+float fval;
+double dval;
+
+a. char 转 int，结果转 char
+
+b. int 转double，unsigned int 转 double ，结果转 float
+
+c. unsigned int 转 float，结果转 double
+
+d. int 转 float， float 转 double， double 转 char
+

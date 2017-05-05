@@ -1,0 +1,6 @@
+空语句就是只有一个分号的语句。
+当使用循环的时候，需要对特定的情况做处理，其他情况不处理的时候，要用到，如：
+
+// read until we hit end-of-file or find an input equal to sought
+while (cin >> s && s != sought)
+    ; // null statement.
